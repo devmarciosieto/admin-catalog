@@ -1,10 +1,11 @@
 package br.com.mmmsieto.domain.category;
 
+import br.com.mmmsieto.domain.AggregateRoot;
+
 import java.time.Instant;
 import java.util.UUID;
 
-public class Category {
-    private String id;
+public class Category extends AggregateRoot<CategoryID> {
     private String name;
     private String description;
     private Boolean active;
@@ -14,25 +15,25 @@ public class Category {
 
 
     private Category(
-            final String id,
-            final String name,
-            final String description,
-            final Boolean active,
-            final Instant createdAt,
-            final Instant updateAt,
-            final Instant deletedAt
+            final CategoryID anId,
+            final String aName,
+            final String aDescription,
+            final Boolean isActive,
+            final Instant aCreatedAt,
+            final Instant aUpdateAt,
+            final Instant aDeletedAt
     ) {
-        this.id = id;
-        this.name = name;
-        this.description = description;
-        this.active = active;
-        this.createdAt = createdAt;
-        this.updateAt = updateAt;
-        this.deletedAt = deletedAt;
+        super(anId);
+        this.name = aName;
+        this.description = aDescription;
+        this.active = isActive;
+        this.createdAt = aCreatedAt;
+        this.updateAt = aUpdateAt;
+        this.deletedAt = aDeletedAt;
     }
 
     public static Category newCategory(String name, String description, Boolean active) {
-        final var id = UUID.randomUUID().toString();
+        final var id = CategoryID.unique();
         return new Category(
                 id,
                 name,
@@ -44,7 +45,7 @@ public class Category {
         );
     }
 
-    public String getId() {
+    public CategoryID getId() {
         return id;
     }
 

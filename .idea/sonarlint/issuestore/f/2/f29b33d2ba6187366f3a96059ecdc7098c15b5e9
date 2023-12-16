@@ -1,3 +1,5 @@
 
 L	java:S106"+Replace this use of System.out by a logger.(Ž½Ž¦ÿÿÿÿÿ8­´ù‚Ç1
-L	java:S106	"+Replace this use of System.out by a logger.(ô£œÒüÿÿÿÿ8®´ù‚Ç1
+X	java:S125	"<This block of commented-out lines of code should be removed.(ëÝ’8Ò¿¹„Ç1
+]
+java:S1128"@Remove this unused import 'br.com.mmmsieto.application.UseCase'.(Ž‰Ãä8Ò¿¹„Ç1

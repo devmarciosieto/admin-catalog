@@ -33,3 +33,13 @@ r
 Bdomain/src/main/java/br/com/mmmsieto/domain/category/Category.java,1\a\1a98bdea9618dc99a099c42c52dd12f4027a0b1d
 v
 Fdomain/src/test/java/br/com/mmmsieto/domain/category/CategoryTest.java,6\2\6234094cea45b2ef3c3dda082935e522de16fe0a
+g
+7domain/src/main/java/br/com/mmmsieto/domain/Entity.java,d\7\d7a4e62b8b2dec11c5a3fc7142170e1389fa6e0c
+l
+<domain/src/main/java/br/com/mmmsieto/domain/ValueObject.java,6\9\69eca49b9cf74b3dad7c38c6c01c01d7c8335b6d
+k
+;domain/src/main/java/br/com/mmmsieto/domain/Identifier.java,9\8\98b5d3d6a20ba82136c92e3e75d58179ca6f08c0
+n
+>domain/src/main/java/br/com/mmmsieto/domain/AggregateRoot.java,f\f\ff9d6675e5d827035dbce197fab572ca9dd60c41
+t
+Ddomain/src/main/java/br/com/mmmsieto/domain/category/CategoryID.java,6\c\6c19083fb1d8eda176d0d7a96fea744f0513bd28
