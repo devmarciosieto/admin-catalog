@@ -29,3 +29,7 @@ v
 Fapplication/src/test/java/br/com/mmmsieto/application/UseCaseTest.java,5\9\59e35b349db9f02ac6dfaf55c0272641464692b8
 y
 Iinfrastructure/src/test/java/br/com/mmmsieto/infrastructure/MainTest.java,3\0\30bcfc199d88f07c05bbbc2750a0a4f04ccb583a
+r
+Bdomain/src/main/java/br/com/mmmsieto/domain/category/Category.java,1\a\1a98bdea9618dc99a099c42c52dd12f4027a0b1d
+v
+Fdomain/src/test/java/br/com/mmmsieto/domain/category/CategoryTest.java,6\2\6234094cea45b2ef3c3dda082935e522de16fe0a
