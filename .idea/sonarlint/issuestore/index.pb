@@ -23,3 +23,9 @@ i
 9domain/src/main/java/br/com/mmmsieto/domain/Category.java,4\e\4e8b1c4d5d2ba50d50224eaea0b70e0c910ce23f
 m
 =domain/src/test/java/br/com/mmmsieto/domain/CategoryTest.java,b\f\bf4ff9a5174c644392e386cd9eacb6568cc8e251
+r
+Bapplication/src/main/java/br/com/mmmsieto/application/UseCase.java,a\4\a4777014216f43a23051e31aa7f131aacc2563cb
+v
+Fapplication/src/test/java/br/com/mmmsieto/application/UseCaseTest.java,5\9\59e35b349db9f02ac6dfaf55c0272641464692b8
+y
+Iinfrastructure/src/test/java/br/com/mmmsieto/infrastructure/MainTest.java,3\0\30bcfc199d88f07c05bbbc2750a0a4f04ccb583a
