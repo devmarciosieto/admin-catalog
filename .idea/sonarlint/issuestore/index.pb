@@ -43,3 +43,17 @@ n
 >domain/src/main/java/br/com/mmmsieto/domain/AggregateRoot.java,f\f\ff9d6675e5d827035dbce197fab572ca9dd60c41
 t
 Ddomain/src/main/java/br/com/mmmsieto/domain/category/CategoryID.java,6\c\6c19083fb1d8eda176d0d7a96fea744f0513bd28
+{
+Kdomain/src/main/java/br/com/mmmsieto/domain/exceptions/DomainException.java,0\c\0c698082f1c4d4eb85ddfa569151e7a4ea0040f6
+q
+Adomain/src/main/java/br/com/mmmsieto/domain/validation/Error.java,e\6\e663e12c9eaee4d0189fd5b961b89a0ef64c0b1e
+}
+Mdomain/src/main/java/br/com/mmmsieto/domain/validation/ValidationHandler.java,9\3\93fe827332c24d1487146261115517b94beeef89
+u
+Edomain/src/main/java/br/com/mmmsieto/domain/validation/Validator.java,4\4\4462acdc51893c700551d1d37c1f3873d53e9002
+Å
+Qdomain/src/main/java/br/com/mmmsieto/domain/exceptions/NoStacktraceException.java,7\7\7738f512befa347d1a9bca56a89f172fbc92f43e
+ã
+[domain/src/main/java/br/com/mmmsieto/domain/validation/handler/ThrowsValidationHandler.java,6\f\6f5eedee53a023d0904f1633322b9a56057c16be
+{
+Kdomain/src/main/java/br/com/mmmsieto/domain/category/CategoryValidator.java,2\1\2149c086d049ebe2f4c5464106d595f613b80a82

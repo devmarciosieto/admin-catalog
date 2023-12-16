@@ -1,5 +1,7 @@
 package br.com.mmmsieto.domain;
 
+import br.com.mmmsieto.domain.validation.ValidationHandler;
+
 import java.util.Objects;
 
 public abstract class Entity<ID extends Identifier> {
@@ -27,4 +29,7 @@ public abstract class Entity<ID extends Identifier> {
     public int hashCode() {
         return Objects.hash(getId());
     }
+
+    public abstract void validate(ValidationHandler handler);
+
 }

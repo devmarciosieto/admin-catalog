@@ -1,11 +1,13 @@
 package br.com.mmmsieto.domain.category;
 
 import br.com.mmmsieto.domain.AggregateRoot;
+import br.com.mmmsieto.domain.validation.ValidationHandler;
 
 import java.time.Instant;
 import java.util.UUID;
 
-public class Category extends AggregateRoot<CategoryID> {
+
+public class Category extends AggregateRoot<CategoryID> implements Cloneable {
     private String name;
     private String description;
     private Boolean active;
@@ -71,6 +73,11 @@ public class Category extends AggregateRoot<CategoryID> {
 
     public Instant getDeletedAt() {
         return deletedAt;
+    }
+
+    @Override
+    public void validate(final ValidationHandler handler) {
+        new CategoryValidator(this, handler).validate();
     }
 
 
