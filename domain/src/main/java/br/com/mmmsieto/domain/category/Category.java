@@ -4,15 +4,13 @@ import br.com.mmmsieto.domain.AggregateRoot;
 import br.com.mmmsieto.domain.validation.ValidationHandler;
 
 import java.time.Instant;
-import java.util.UUID;
-
 
 public class Category extends AggregateRoot<CategoryID> implements Cloneable {
     private String name;
     private String description;
     private Boolean active;
     private Instant createdAt;
-    private Instant updateAt;
+    private Instant updatedAt;
     private Instant deletedAt;
 
 
@@ -22,7 +20,7 @@ public class Category extends AggregateRoot<CategoryID> implements Cloneable {
             final String aDescription,
             final Boolean isActive,
             final Instant aCreatedAt,
-            final Instant aUpdateAt,
+            final Instant aUpdatedAt,
             final Instant aDeletedAt
     ) {
         super(anId);
@@ -30,7 +28,7 @@ public class Category extends AggregateRoot<CategoryID> implements Cloneable {
         this.description = aDescription;
         this.active = isActive;
         this.createdAt = aCreatedAt;
-        this.updateAt = aUpdateAt;
+        this.updatedAt = aUpdatedAt;
         this.deletedAt = aDeletedAt;
     }
 
@@ -59,7 +57,7 @@ public class Category extends AggregateRoot<CategoryID> implements Cloneable {
         return description;
     }
 
-    public Boolean getIsActive() {
+    public Boolean isActive() {
         return active;
     }
 
@@ -67,8 +65,8 @@ public class Category extends AggregateRoot<CategoryID> implements Cloneable {
         return createdAt;
     }
 
-    public Instant getUpdateAt() {
-        return updateAt;
+    public Instant getUpdatedAt() {
+        return updatedAt;
     }
 
     public Instant getDeletedAt() {

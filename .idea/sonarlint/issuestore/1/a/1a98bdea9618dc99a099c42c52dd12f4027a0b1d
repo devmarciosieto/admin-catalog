@@ -1,9 +1,7 @@
 
 A
-java:S2157
-"%Add a "clone()" method to this class.(¢Ñ®8Ö¬í…Ç1
+java:S2157"%Add a "clone()" method to this class.(¢Ñ®8Ö¬í…Ç1
 G
-java:S2160
-"+Override the "equals" method in this class.(¢Ñ®8Ö¬í…Ç1
+java:S2160"+Override the "equals" method in this class.(¢Ñ®8Ö¬í…Ç1
 \
-java:S11612":Add the "@Override" annotation above this method signature(“êÊ‚ûÿÿÿÿ8Ù¬í…Ç1
+java:S11610":Add the "@Override" annotation above this method signature(“êÊ‚ûÿÿÿÿ8Ù¬í…Ç1
