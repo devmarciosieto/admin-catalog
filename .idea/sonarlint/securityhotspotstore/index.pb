@@ -53,3 +53,7 @@ Qdomain/src/main/java/br/com/mmmsieto/domain/exceptions/NoStacktraceException.ja
 Kdomain/src/main/java/br/com/mmmsieto/domain/category/CategoryValidator.java,2\1\2149c086d049ebe2f4c5464106d595f613b80a82
 s
 Cdomain/src/main/java/br/com/mmmsieto/domain/utils/InstantUtils.java,f\6\f60ebd278e2c2622ce9cb8b9ee2e6421d0ca6bac
+r
+Bdomain/src/test/java/br/com/mmmsieto/domain/category/UnitTest.java,c\c\cc7bdf39566d414e631c6e27c3a6a95122ab498a
+i
+9domain/src/test/java/br/com/mmmsieto/domain/UnitTest.java,3\5\3588d0e6e680ba1da09749e7a827617ee4911f59

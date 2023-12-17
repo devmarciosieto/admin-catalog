@@ -1,35 +1,42 @@
 
 @
-java:S5786"Remove this 'public' modifier.(—Ãçıüÿÿÿÿ8»œè­Ç1
+java:S5786"Remove this 'public' modifier.(—Ãçıüÿÿÿÿ8óÌË¯Ç1
 ;
-java:S5786"Remove this 'public' modifier.(³ëº8¼œè­Ç1
+java:S5786 "Remove this 'public' modifier.(³ëº8ôÌË¯Ç1
 ;
-java:S57861"Remove this 'public' modifier.(„Ò“Û8¾œè­Ç1
+java:S57862"Remove this 'public' modifier.(„Ò“Û8ôÌË¯Ç1
 ;
-java:S5786C"Remove this 'public' modifier.(‰Œ¯8ê‰Ë®Ç1
+java:S5786D"Remove this 'public' modifier.(‰Œ¯8ôÌË¯Ç1
 ;
-java:S5786U"Remove this 'public' modifier.(µ»†8‘óÎ®Ç1
+java:S5786V"Remove this 'public' modifier.(µ»†8ôÌË¯Ç1
 @
-java:S5786l"Remove this 'public' modifier.(ŸŒ¾Ãøÿÿÿÿ8‚íÑ®Ç1
+java:S5786m"Remove this 'public' modifier.(ŸŒ¾Ãøÿÿÿÿ8ôÌË¯Ç1
 <
-java:S5786"Remove this 'public' modifier.(¡‰ü÷8İä×®Ç1
-;
-java:S5786–"Remove this 'public' modifier.(†ÿ<8µ–à®Ç1
-<
-java:S5786³"Remove this 'public' modifier.(ô—†ó8¼ò„¯Ç1
-<
-java:S5786Ñ"Remove this 'public' modifier.(–Çüö8é¨†¯Ç1
+java:S5786‚"Remove this 'public' modifier.(¡‰ü÷8ôÌË¯Ç1
 A
-java:S5786ì"Remove this 'public' modifier.(›”—üÿÿÿÿ8ì´‡¯Ç1
+java:S5786—"Remove this 'public' modifier.(æä—üÿÿÿÿ8ôÌË¯Ç1
+<
+java:S5786µ"Remove this 'public' modifier.(ô—†ó8ôÌË¯Ç1
+<
+java:S5786Ó"Remove this 'public' modifier.(†¥›é8õÌË¯Ç1
 A
-java:S5786‰"Remove this 'public' modifier.(›ÈèÜşÿÿÿÿ8Ç¯ˆ¯Ç1
+java:S5786ï"Remove this 'public' modifier.(›”—üÿÿÿÿ8õÌË¯Ç1
+A
+java:S5786Œ"Remove this 'public' modifier.(ŸŞ¾ÿÿÿÿÿ8õÌË¯Ç1
 ;
-java:S5786	"Remove this 'public' modifier.(Úÿ†€8ë‹‰¯Ç1
+java:S5786
+"Remove this 'public' modifier.(Ùî¼š8õÌË¯Ç1
 
-java:S5778*"bRefactor the code of the lambda to have only one invocation possibly throwing a runtime exception.(Û¾ª¸8úç­Ç1
+java:S5778+"bRefactor the code of the lambda to have only one invocation possibly throwing a runtime exception.(Û¾ª¸8úç­Ç1
 
-java:S5778<"bRefactor the code of the lambda to have only one invocation possibly throwing a runtime exception.(Û¾ª¸8ì‰Ë®Ç1
+java:S5778="bRefactor the code of the lambda to have only one invocation possibly throwing a runtime exception.(Û¾ª¸8ì‰Ë®Ç1
 
-java:S5778N"bRefactor the code of the lambda to have only one invocation possibly throwing a runtime exception.(Û¾ª¸8’óÎ®Ç1
+java:S5778O"bRefactor the code of the lambda to have only one invocation possibly throwing a runtime exception.(Û¾ª¸8’óÎ®Ç1
 
-java:S5778e"bRefactor the code of the lambda to have only one invocation possibly throwing a runtime exception.(Û¾ª¸8„íÑ®Ç1
+java:S5778f"bRefactor the code of the lambda to have only one invocation possibly throwing a runtime exception.(Û¾ª¸8„íÑ®Ç1
+G
+java:S2925§"$Remove this use of "Thread.sleep()".(»ãßºøÿÿÿÿ8ù„°Ç1
+G
+java:S2925à"$Remove this use of "Thread.sleep()".(»ãßºøÿÿÿÿ8ö´°Ç1
+G
+java:S2925™"$Remove this use of "Thread.sleep()".(»ãßºøÿÿÿÿ8½“‘°Ç1
