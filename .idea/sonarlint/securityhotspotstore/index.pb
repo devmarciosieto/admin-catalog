@@ -64,3 +64,7 @@ v
 Fdomain/src/main/java/br/com/mmmsieto/domain/pagination/Pagination.java,d\9\d9d8fcea0fb53d81c47f46334b8afe6d21e4aeba
 }
 Mdomain/src/main/java/br/com/mmmsieto/domain/category/CategorySearchQuery.java,6\6\6610e97a4e2f03e3e11165bfdd2ca2b2931c44c5
+v
+Fapplication/src/main/java/br/com/mmmsieto/application/UnitUseCase.java,c\1\c160117f00254fd004637190cccca54f5397f17e
+y
+Iapplication/src/main/java/br/com/mmmsieto/application/NullaryUseCase.java,8\5\852bc5c1fde914e08daac70d1fdfa0b4cbec40e9
