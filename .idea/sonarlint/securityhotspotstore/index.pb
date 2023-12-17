@@ -13,16 +13,10 @@ C
 settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
 H
 application/build.gradle,a\a\aa9cf0dce48be9892530b6983bf9282cc49f2a75
-o
-?application/src/main/java/br/com/mmmsieto/application/Main.java,4\a\4ac2fbc6ab05899c1e8c1bc5f8aede9c8465d542
 K
 infrastructure/build.gradle,d\0\d08ad7275ca05d13cb570f6f624eee8075619a60
 u
 Einfrastructure/src/main/java/br/com/mmmsieto/infrastructure/Main.java,f\2\f29b33d2ba6187366f3a96059ecdc7098c15b5e9
-i
-9domain/src/main/java/br/com/mmmsieto/domain/Category.java,4\e\4e8b1c4d5d2ba50d50224eaea0b70e0c910ce23f
-m
-=domain/src/test/java/br/com/mmmsieto/domain/CategoryTest.java,b\f\bf4ff9a5174c644392e386cd9eacb6568cc8e251
 r
 Bapplication/src/main/java/br/com/mmmsieto/application/UseCase.java,a\4\a4777014216f43a23051e31aa7f131aacc2563cb
 v
@@ -57,3 +51,5 @@ Qdomain/src/main/java/br/com/mmmsieto/domain/exceptions/NoStacktraceException.ja
 [domain/src/main/java/br/com/mmmsieto/domain/validation/handler/ThrowsValidationHandler.java,6\f\6f5eedee53a023d0904f1633322b9a56057c16be
 {
 Kdomain/src/main/java/br/com/mmmsieto/domain/category/CategoryValidator.java,2\1\2149c086d049ebe2f4c5464106d595f613b80a82
+s
+Cdomain/src/main/java/br/com/mmmsieto/domain/utils/InstantUtils.java,f\6\f60ebd278e2c2622ce9cb8b9ee2e6421d0ca6bac

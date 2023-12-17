@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class CategoryTest extends UnitTest {
+public class CategoryTest {
 
     @Test
     public void givenAValidParams_whenCallNewCategory_thenInstantiateACategory() {
@@ -121,7 +121,7 @@ public class CategoryTest extends UnitTest {
         assertEquals(expectedDescription, actualCategory.getDescription());
         assertEquals(expectedIsActive, actualCategory.isActive());
         assertNotNull(actualCategory.getCreatedAt());
-        assertNotNull(actualCategory.getUpdateAt());
+        assertNotNull(actualCategory.getUpdatedAt());
         assertNull(actualCategory.getDeletedAt());
     }
 
