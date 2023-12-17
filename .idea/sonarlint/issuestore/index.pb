@@ -68,3 +68,5 @@ v
 Fapplication/src/main/java/br/com/mmmsieto/application/UnitUseCase.java,c\1\c160117f00254fd004637190cccca54f5397f17e
 y
 Iapplication/src/main/java/br/com/mmmsieto/application/NullaryUseCase.java,8\5\852bc5c1fde914e08daac70d1fdfa0b4cbec40e9
+”
+dapplication/src/test/java/br/com/mmmsieto/application/category/create/CreateCategoryUseCaseTest.java,3\b\3b9286ad1e90977b30252026e53a2b5302904450

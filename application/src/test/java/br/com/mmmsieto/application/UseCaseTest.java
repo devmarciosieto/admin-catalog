@@ -1,15 +1,37 @@
 package br.com.mmmsieto.application;
 
-import org.junit.jupiter.api.Test;
+import br.com.mmmsieto.domain.Identifier;
+import org.junit.jupiter.api.Tag;
+import org.junit.jupiter.api.extension.BeforeEachCallback;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.junit.jupiter.api.extension.ExtensionContext;
+import org.mockito.Mockito;
+import org.mockito.junit.jupiter.MockitoExtension;
 
-import static org.junit.jupiter.api.Assertions.*;
+import java.util.List;
+import java.util.Set;
+import java.util.stream.Collectors;
 
-class UseCaseTest {
+@ExtendWith(MockitoExtension.class)
+@Tag("unitTest")
+public abstract class UseCaseTest implements BeforeEachCallback {
 
-    @Test
-    public void testCreateUseCase() {
-        assertNotNull(new UseCase());
-//        assertNotNull(new UseCase().execute());
+    @Override
+    public void beforeEach(final ExtensionContext context) throws Exception {
+        Mockito.reset(getMocks().toArray());
     }
 
+    protected abstract List<Object> getMocks();
+
+    protected Set<String> asString(final Set<? extends Identifier> ids) {
+        return ids.stream()
+                .map(Identifier::getValue)
+                .collect(Collectors.toSet());
+    }
+
+    protected List<String> asString(final List<? extends Identifier> ids) {
+        return ids.stream()
+                .map(Identifier::getValue)
+                .toList();
+    }
 }
