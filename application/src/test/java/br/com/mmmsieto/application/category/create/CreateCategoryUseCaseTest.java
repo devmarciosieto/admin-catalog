@@ -36,16 +36,18 @@ public class CreateCategoryUseCaseTest extends UseCaseTest {
         final var expectedDescription = "A categoria mais assistida";
         final var expectedIsActive = true;
 
-//        final var aCommand =
-//                CreateCategoryCommand.with(expectedName, expectedDescription, expectedIsActive);
+        final var aCommand =
+                CreateCategoryCommand.with(expectedName, expectedDescription, expectedIsActive);
 
         when(categoryGateway.create(any()))
                 .thenAnswer(returnsFirstArg());
 
-//        final var actualOutput = useCase.execute(aCommand).get();
+        final var useCase = new DefaultCreateCategoryUseCase(categoryGateway);
 
-//        Assertions.assertNotNull(actualOutput);
-//        Assertions.assertNotNull(actualOutput.id());
+        final var actualOutput = useCase.execute(aCommand);
+
+        Assertions.assertNotNull(actualOutput);
+        Assertions.assertNotNull(actualOutput.id());
 
         Mockito.verify(categoryGateway, times(1)).create(argThat(aCategory ->
                 Objects.equals(expectedName, aCategory.getName())

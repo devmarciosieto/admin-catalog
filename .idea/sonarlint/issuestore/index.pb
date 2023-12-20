@@ -70,3 +70,11 @@ y
 Iapplication/src/main/java/br/com/mmmsieto/application/NullaryUseCase.java,8\5\852bc5c1fde914e08daac70d1fdfa0b4cbec40e9
 î
 dapplication/src/test/java/br/com/mmmsieto/application/category/create/CreateCategoryUseCaseTest.java,3\b\3b9286ad1e90977b30252026e53a2b5302904450
+ê
+`application/src/main/java/br/com/mmmsieto/application/category/create/CreateCategoryCommand.java,f\0\f044de8d2a657ac68b52245b166f7785742bc6bf
+è
+_application/src/main/java/br/com/mmmsieto/application/category/create/CreateCategoryOutput.java,e\f\ef0975f0e460156e3587e19737d63a6c38601d11
+ê
+`application/src/main/java/br/com/mmmsieto/application/category/create/CreateCategoryUseCase.java,f\d\fd2ec34bbf54db3692f52febeab5a1d4be13e5df
+ó
+gapplication/src/main/java/br/com/mmmsieto/application/category/create/DefaultCreateCategoryUseCase.java,0\6\06bd6f966889e850b4adf8dae88fa883fa433aeb
