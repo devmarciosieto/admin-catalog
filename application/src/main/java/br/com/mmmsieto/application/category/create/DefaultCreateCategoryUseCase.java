@@ -4,8 +4,13 @@ import br.com.mmmsieto.domain.category.Category;
 import br.com.mmmsieto.domain.category.CategoryGateway;
 import br.com.mmmsieto.domain.validation.handler.Notification;
 import br.com.mmmsieto.domain.validation.handler.ThrowsValidationHandler;
+import io.vavr.API;
+import io.vavr.control.Either;
 
 import java.util.Objects;
+
+import static io.vavr.API.Left;
+import static io.vavr.API.Try;
 
 public class DefaultCreateCategoryUseCase extends CreateCategoryUseCase {
 
@@ -16,7 +21,7 @@ public class DefaultCreateCategoryUseCase extends CreateCategoryUseCase {
     }
 
     @Override
-    public CreateCategoryOutput execute(final CreateCategoryCommand aCommand) {
+    public Either<Notification,CreateCategoryOutput> execute(final CreateCategoryCommand aCommand) {
 
         final var notification = Notification.create();
 
@@ -27,6 +32,15 @@ public class DefaultCreateCategoryUseCase extends CreateCategoryUseCase {
 
         }
 
-        return CreateCategoryOutput.from(categoryGateway.create(aCategory));
+        return notification.hasError() ? Left(notification) : create(aCategory);
     }
+
+    private Either<Notification, CreateCategoryOutput> create(final Category aCategory) {
+
+        return Try(() -> this.categoryGateway.create(aCategory))
+                .toEither()
+                .bimap(Notification::create, CreateCategoryOutput::from);
+    }
+
+
 }
