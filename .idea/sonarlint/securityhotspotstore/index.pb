@@ -78,3 +78,5 @@ _application/src/main/java/br/com/mmmsieto/application/category/create/CreateCat
 `application/src/main/java/br/com/mmmsieto/application/category/create/CreateCategoryUseCase.java,f\d\fd2ec34bbf54db3692f52febeab5a1d4be13e5df
 —
 gapplication/src/main/java/br/com/mmmsieto/application/category/create/DefaultCreateCategoryUseCase.java,0\6\06bd6f966889e850b4adf8dae88fa883fa433aeb
+€
+Pdomain/src/main/java/br/com/mmmsieto/domain/validation/handler/Notification.java,b\1\b173b771957b5261f971a40980604fad01565b05
