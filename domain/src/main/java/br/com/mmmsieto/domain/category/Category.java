@@ -138,6 +138,10 @@ public class Category extends AggregateRoot<CategoryID> implements Cloneable {
         return deletedAt;
     }
 
+    public static Category clone(final Category aCategory) {
+        return aCategory.clone();
+    }
+
     @Override
     public Category clone() {
         try {
