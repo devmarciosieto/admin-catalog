@@ -4,6 +4,7 @@ import br.com.mmmsieto.domain.category.Category;
 import br.com.mmmsieto.domain.category.CategoryGateway;
 import br.com.mmmsieto.domain.category.CategoryID;
 import br.com.mmmsieto.domain.exceptions.DomainException;
+import br.com.mmmsieto.domain.exceptions.NotFoundException;
 import br.com.mmmsieto.domain.validation.Error;
 import br.com.mmmsieto.domain.validation.handler.Notification;
 import io.vavr.control.Either;
@@ -39,8 +40,8 @@ public class DefaultUpdateCategoryUseCase extends UpdateCategoryUseCase {
         return notification.hasError() ? Left(notification) : update(aCategory);
     }
 
-    private Supplier<DomainException> notFound(CategoryID anId) {
-        return () -> DomainException.with(new Error("Category with ID %s not found".formatted(anId.getValue())));
+    private Supplier<DomainException> notFound(final CategoryID anId) {
+        return () -> NotFoundException.with(new Error("Category with ID %s not found".formatted(anId.getValue())));
     }
 
 private Either<Notification, UpdateCategoryOutput> update(final Category aCategory) {

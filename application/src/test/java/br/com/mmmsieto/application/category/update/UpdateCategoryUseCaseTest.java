@@ -4,6 +4,7 @@ import br.com.mmmsieto.application.UseCaseTest;
 import br.com.mmmsieto.domain.category.Category;
 import br.com.mmmsieto.domain.category.CategoryGateway;
 import br.com.mmmsieto.domain.category.CategoryID;
+import br.com.mmmsieto.domain.exceptions.NotFoundException;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
@@ -194,32 +195,33 @@ public class UpdateCategoryUseCaseTest extends UseCaseTest {
         ));
     }
 
-//    @Test
-//    public void givenACommandWithInvalidID_whenCallsUpdateCategory_shouldReturnNotFoundException() {
-//        final var expectedName = "Filmes";
-//        final var expectedDescription = "A categoria mais assistida";
-//        final var expectedIsActive = false;
-//        final var expectedId = "123";
-//        final var expectedErrorMessage = "Category with ID 123 was not found";
-//
-//        final var aCommand = UpdateCategoryCommand.with(
-//                expectedId,
-//                expectedName,
-//                expectedDescription,
-//                expectedIsActive
-//        );
-//
-//        when(categoryGateway.findById(eq(CategoryID.from(expectedId))))
-//                .thenReturn(Optional.empty());
-//
-//        final var actualException =
-//                Assertions.assertThrows(NotFoundException.class, () -> useCase.execute(aCommand));
-//
-//        Assertions.assertEquals(expectedErrorMessage, actualException.getMessage());
-//
-//        Mockito.verify(categoryGateway, times(1)).findById(eq(CategoryID.from(expectedId)));
-//
-//        Mockito.verify(categoryGateway, times(0)).update(any());
-//    }
+    @Test
+    public void givenACommandWithInvalidID_whenCallsUpdateCategory_shouldReturnNotFoundException() {
+        final var expectedName = "Filmes";
+        final var expectedDescription = "A categoria mais assistida";
+        final var expectedIsActive = false;
+        final var expectedId = "123";
+        final var expectedErrorMessage = "Category with ID 123 not found";
+
+        final var aCommand = UpdateCategoryCommand.with(
+                expectedId,
+                expectedName,
+                expectedDescription,
+                expectedIsActive
+        );
+
+        when(categoryGateway.findById(eq(CategoryID.from(expectedId))))
+                .thenReturn(Optional.empty());
+
+
+        final var actualException =
+                Assertions.assertThrows(NotFoundException.class, () -> useCase.execute(aCommand));
+
+        Assertions.assertEquals(expectedErrorMessage, actualException.getMessage());
+
+        Mockito.verify(categoryGateway, times(1)).findById(eq(CategoryID.from(expectedId)));
+
+        Mockito.verify(categoryGateway, times(0)).update(any());
+    }
 }
 
