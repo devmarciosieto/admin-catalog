@@ -1,5 +1,17 @@
 
-L	java:S106"+Replace this use of System.out by a logger.(Ž½Ž¦ÿÿÿÿÿ8­´ù‚Ç1
-X	java:S125	"<This block of commented-out lines of code should be removed.(ëÝ’8Ò¿¹„Ç1
-]
-java:S1128"@Remove this unused import 'br.com.mmmsieto.application.UseCase'.(Ž‰Ãä8Ò¿¹„Ç1
+X	java:S125 "<This block of commented-out lines of code should be removed.(ÑÈ«8‹¤üñÊ1
+T
+java:S1135"2Complete the task associated to this TODO comment.(Ü–Íáÿÿÿÿÿ8²ÛùñÊ1
+g
+java:S1128"ERemove this unused import 'br.com.mmmsieto.domain.category.Category'.(™øÙûÿÿÿÿ8¤üñÊ1
+„
+java:S1128"bRemove this unused import 'br.com.mmmsieto.infrastructure.category.persistence.CategoryJpaEntity'.(Šüô§øÿÿÿÿ8¤üñÊ1
+…
+java:S1128"cRemove this unused import 'br.com.mmmsieto.infrastructure.category.persistence.CategoryRepository'.(¡åêáûÿÿÿÿ8¤üñÊ1
+c
+java:S1128
+"GRemove this unused import 'org.springframework.boot.ApplicationRunner'.(ÃëòN8¤üñÊ1
+e
+java:S1128"HRemove this unused import 'org.springframework.context.annotation.Bean'.(‚î‰Þ8Ž¤üñÊ1
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Ž¤üñÊ1
