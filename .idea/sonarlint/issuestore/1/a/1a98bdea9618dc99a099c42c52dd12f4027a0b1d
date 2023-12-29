@@ -5,4 +5,4 @@ java:S2160
 \
 java:S1161q":Add the "@Override" annotation above this method signature(“êÊ‚ûÿÿÿÿ8ü¿û®Ç1
 q
-java:S2975Ž"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(ìÿô¯8ÿ¿û®Ç1
+java:S2975’"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(ìÿô¯8ÿ¿û®Ç1

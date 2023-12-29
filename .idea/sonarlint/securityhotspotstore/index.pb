@@ -88,8 +88,6 @@ ginfrastructure/src/main/java/br/com/mmmsieto/infrastructure/category/persistenc
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 ˜
 hinfrastructure/src/main/java/br/com/mmmsieto/infrastructure/category/persistence/CategoryRepository.java,1\8\18c4dcd6be5e7b1141a1e2a06194ed5ddafdb44d
-š
-jinfrastructure/src/main/java/br/com/mmmsieto/infrastructure/category/persistence/CategoryMySQLGateway.java,c\8\c89183d909724f4c6518f0c7f5db6477cce7b79d
 Ž
 ^infrastructure/src/main/java/br/com/mmmsieto/infrastructure/category/CategoryMySQLGateway.java,3\9\395cd0963627704c72e691eb6e8b4fee11fcfde9
 ’
@@ -98,3 +96,5 @@ binfrastructure/src/test/java/br/com/mmmsieto/infrastructure/category/CategoryMy
 Qinfrastructure/src/test/java/br/com/mmmsieto/infrastructure/MySQLGatewayTest.java,9\3\93c238c2b2f98a14ee2a30648a9af3768b30e460
 †
 Vinfrastructure/src/test/java/br/com/mmmsieto/infrastructure/MySQLCleanUpExtension.java,4\3\43e04c1c0d595f1ec342566f6ef678a560e69fc8
+“
+cinfrastructure/src/test/java/br/com/mmmsieto/infrastructure/persistence/CategoryRepositoryTest.java,5\c\5caa4f72d9168211d7c4b356b61665c2fe0ad1c3
