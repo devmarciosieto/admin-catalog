@@ -11,7 +11,7 @@ public record CategoryListOutput(
         String description,
         boolean isActive,
         Instant createdAt,
-        Instant deletedAt ) {
+        Instant deletedAt) {
 
     public static CategoryListOutput from(final Category aCategory) {
         return new CategoryListOutput(

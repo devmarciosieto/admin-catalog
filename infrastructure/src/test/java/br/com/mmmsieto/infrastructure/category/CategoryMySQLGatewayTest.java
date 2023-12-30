@@ -1,9 +1,9 @@
 package br.com.mmmsieto.infrastructure.category;
 
+import br.com.mmmsieto.MySQLGatewayTest;
 import br.com.mmmsieto.domain.category.Category;
 import br.com.mmmsieto.domain.category.CategoryID;
 import br.com.mmmsieto.domain.pagination.SearchQuery;
-import br.com.mmmsieto.infrastructure.MySQLGatewayTest;
 import br.com.mmmsieto.infrastructure.category.persistence.CategoryJpaEntity;
 import br.com.mmmsieto.infrastructure.category.persistence.CategoryRepository;
 import org.junit.jupiter.api.Test;

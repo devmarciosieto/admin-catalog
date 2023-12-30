@@ -9,7 +9,7 @@ public record UpdateCategoryOutput(
 
     public static UpdateCategoryOutput fron(
             final Category aCategory
-            ) {
+    ) {
         return new UpdateCategoryOutput(
                 aCategory.getId()
         );

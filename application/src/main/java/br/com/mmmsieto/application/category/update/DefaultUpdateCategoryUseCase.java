@@ -44,7 +44,7 @@ public class DefaultUpdateCategoryUseCase extends UpdateCategoryUseCase {
         return () -> NotFoundException.with(new Error("Category with ID %s not found".formatted(anId.getValue())));
     }
 
-private Either<Notification, UpdateCategoryOutput> update(final Category aCategory) {
+    private Either<Notification, UpdateCategoryOutput> update(final Category aCategory) {
         return Try(() -> categoryGateway.update(aCategory))
                 .toEither()
                 .bimap(Notification::create, UpdateCategoryOutput::fron);

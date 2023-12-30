@@ -60,11 +60,11 @@ public class CategoryMySQLGateway implements CategoryGateway {
                 Sort.by(Sort.Direction.fromString(aQuery.direction()), aQuery.sort())
         );
 
-    final var spcifications = Optional.ofNullable(aQuery.terms())
-            .filter(str -> !str.isBlank())
-            .map(str ->
-                    SpecificationUtils.<CategoryJpaEntity>like("name", str)
-                            .or(like("description", str))).orElse(null);
+        final var spcifications = Optional.ofNullable(aQuery.terms())
+                .filter(str -> !str.isBlank())
+                .map(str ->
+                        SpecificationUtils.<CategoryJpaEntity>like("name", str)
+                                .or(like("description", str))).orElse(null);
 
         final var pageResult = this.repository.findAll(spcifications, page);
 

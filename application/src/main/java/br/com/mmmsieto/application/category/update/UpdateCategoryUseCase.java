@@ -5,5 +5,5 @@ import br.com.mmmsieto.domain.validation.handler.Notification;
 import io.vavr.control.Either;
 
 public abstract class UpdateCategoryUseCase
-    extends UseCase<UpdateCategoryCommand, Either<Notification, UpdateCategoryOutput>> {
+        extends UseCase<UpdateCategoryCommand, Either<Notification, UpdateCategoryOutput>> {
 }

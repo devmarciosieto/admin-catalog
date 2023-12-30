@@ -1,8 +1,8 @@
 package br.com.mmmsieto.domain.category;
 
+import br.com.mmmsieto.domain.validation.Error;
 import br.com.mmmsieto.domain.validation.ValidationHandler;
 import br.com.mmmsieto.domain.validation.Validator;
-import br.com.mmmsieto.domain.validation.Error;
 
 public class CategoryValidator extends Validator {
 

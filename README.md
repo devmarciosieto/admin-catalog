@@ -18,16 +18,19 @@
 ## Como executar?
 
 1. Clonar o repositório:
+
 ```sh
 git clone https://github.com/devmarciosieto/admin-catalog.git
 ```
 
 2. Subir o banco de dados MySQL com Docker:
+
 ```shell
 docker-compose up -d
 ```
 
 3. Executar as migrações do MySQL com o Flyway:
+
 ```shell
 ./gradlew flywayMigrate
 ```
@@ -47,6 +50,7 @@ Docker. Execute o comando a seguir para subir o MySQL:
 ```shell
 docker-compose up -d
 ```
+
 Pronto! Aguarde que em instantes o MySQL irá estar pronto para ser consumido
 na porta 3306.
 
@@ -75,6 +79,7 @@ Quando isso acontecer o flyway ficará em um estado de reparação
 com um registro na tabela `flyway_schema_history` com erro (`sucesso = 0`).
 
 Para executar a reparação, corrija os arquivos e execute:
+
 ```shell
 ./gradlew flywayRepair
 ```
@@ -92,6 +97,7 @@ Além dos comandos já exibidos, temos alguns outros muito úteis como o info e 
 ./gradlew flywayInfo
 ./gradlew flywayValidate
 ```
+
 Para saber todos os comandos disponíveis: [Flyway Gradle Plugin](https://flywaydb.org/documentation/usage/gradle/info)
 
 <br/>
@@ -108,28 +114,34 @@ FLYWAY_DB=jdbc:mysql://prod:3306/adm_videos FLYWAY_USER=root FLYWAY_PASS=123h1hu
 ```
 
 ### Executando com Docker
+
 Para rodar a aplicação localmente com Docker, iremos utilizar o `docker compose` e necessita de apenas três passos:
 <br/>
 
 #### 1. Gerando o artefato produtivo (jar)
 
 Para gerar o artefato produtivo, basta executar o comando:
+
 ```
 ./gradlew bootJar
 ```
+
 <br/>
 
 #### 2. Executando os containers independentes
 
 Para executar o MySQL e o Rabbit, basta executar o comando abaixo.
+
 ```
 docker-compose up -d
 ```
+
 <br/>
 
 #### 3. Executando a aplicação junto dos outros containers
 
 Depois de visualizar que os demais containers estão de pé, para rodar sua aplicação junto basta executar o comando:
+
 ```
 docker-compose --profile app up -d
 ```
@@ -142,6 +154,7 @@ docker-compose --profile app up -d
 #### Parando os containers
 
 Para encerrar os containers, basta executar o comando:
+
 ```
 docker compose --profile app stop
 ```
@@ -184,7 +197,6 @@ docker compose --profile app stop
     - Nome: myuser
     - Groups: adicionar ao `catalogo-admin`
     - Criar um credentials: `root`
-
 
 #### Integration
 

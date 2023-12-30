@@ -8,5 +8,4 @@ public abstract class CreateCategoryUseCase
         extends UseCase<CreateCategoryCommand, Either<Notification, CreateCategoryOutput>> {
 
 
-
 }

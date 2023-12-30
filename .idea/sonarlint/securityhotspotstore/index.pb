@@ -106,3 +106,7 @@ Yinfrastructure/src/main/java/br/com/mmmsieto/infrastructure/utils/Specification
 einfrastructure/src/main/java/br/com/mmmsieto/infrastructure/configuration/usecases/UseCaseConfig.java,4\8\483d31eed76863b1874ed0b667af63615fd1fbf2
 ù
 minfrastructure/src/main/java/br/com/mmmsieto/infrastructure/configuration/usecases/CategoryUseCaseConfig.java,6\a\6a5187dc5dd356dfe7eca7431101cea3c4754f75
+w
+Ginfrastructure/src/test/java/br/com/mmmsieto/MySQLCleanUpExtension.java,a\4\a48513bf38af388d8fe6eed6411dffe1062e4088
+r
+Binfrastructure/src/test/java/br/com/mmmsieto/MySQLGatewayTest.java,c\c\ccaf7473c57492cb8230316d8c63beedefc750f7

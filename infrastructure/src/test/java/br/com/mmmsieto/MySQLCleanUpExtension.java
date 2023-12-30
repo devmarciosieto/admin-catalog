@@ -1,4 +1,4 @@
-package br.com.mmmsieto.infrastructure;
+package br.com.mmmsieto;
 
 import br.com.mmmsieto.infrastructure.category.persistence.CategoryRepository;
 import org.junit.jupiter.api.extension.BeforeEachCallback;
