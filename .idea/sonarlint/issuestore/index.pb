@@ -98,3 +98,11 @@ Qinfrastructure/src/test/java/br/com/mmmsieto/infrastructure/MySQLGatewayTest.ja
 Vinfrastructure/src/test/java/br/com/mmmsieto/infrastructure/MySQLCleanUpExtension.java,4\3\43e04c1c0d595f1ec342566f6ef678a560e69fc8
 ì
 cinfrastructure/src/test/java/br/com/mmmsieto/infrastructure/persistence/CategoryRepositoryTest.java,5\c\5caa4f72d9168211d7c4b356b61665c2fe0ad1c3
+â
+Yinfrastructure/src/main/java/br/com/mmmsieto/infrastructure/utils/SpecificationUtils.java,a\2\a2b645e21b570d14a0c8d1509358dc6611a87747
+å
+\infrastructure/src/main/java/br/com/mmmsieto/infrastructure/configuration/UseCaseConfig.java,c\6\c6250a70ae4876421e4b61bd4b5f0c89f228c0f2
+ï
+einfrastructure/src/main/java/br/com/mmmsieto/infrastructure/configuration/usecases/UseCaseConfig.java,4\8\483d31eed76863b1874ed0b667af63615fd1fbf2
+ù
+minfrastructure/src/main/java/br/com/mmmsieto/infrastructure/configuration/usecases/CategoryUseCaseConfig.java,6\a\6a5187dc5dd356dfe7eca7431101cea3c4754f75

@@ -1,17 +1,34 @@
 
-X	java:S125 "<This block of commented-out lines of code should be removed.(ÑÈ«8‹¤üñÊ1
-T
-java:S1135"2Complete the task associated to this TODO comment.(Ü–Íáÿÿÿÿÿ8²ÛùñÊ1
+X	java:S125'"<This block of commented-out lines of code should be removed.(ÑÈ«8¼‰ˆÚË1
+X	java:S125>"<This block of commented-out lines of code should be removed.(¬å’º8äÖÚË1
+O
+java:S1135%"2Complete the task associated to this TODO comment.(¤éîË8¼‰ˆÚË1
+O
+java:S11355"2Complete the task associated to this TODO comment.(¤éîË8œñ’ÚË1
+{
+java:S1128"^Remove this unused import 'br.com.mmmsieto.application.category.create.CreateCategoryUseCase'.(ãË¡”8åÖÚË1
+z
+java:S1128"^Remove this unused import 'br.com.mmmsieto.application.category.delete.DeleteCategoryUseCase'.(·òÌ"8åÖÚË1
+‚
+java:S1128"eRemove this unused import 'br.com.mmmsieto.application.category.retrieve.get.GetCategoryByIdUseCase'.(³«ˆÕ8æÖÚË1
+‚
+java:S1128"eRemove this unused import 'br.com.mmmsieto.application.category.retrieve.list.ListCategoriesUseCase'.(Ê÷å8æÖÚË1
+€
+java:S1128"^Remove this unused import 'br.com.mmmsieto.application.category.update.UpdateCategoryUseCase'.(¦Äõ€ùÿÿÿÿ8æÖÚË1
 g
-java:S1128"ERemove this unused import 'br.com.mmmsieto.domain.category.Category'.(™øÙûÿÿÿÿ8¤üñÊ1
+java:S1128"ERemove this unused import 'br.com.mmmsieto.domain.category.Category'.(™øÙûÿÿÿÿ8½‰ˆÚË1
 „
-java:S1128"bRemove this unused import 'br.com.mmmsieto.infrastructure.category.persistence.CategoryJpaEntity'.(Šüô§øÿÿÿÿ8¤üñÊ1
+java:S1128	"bRemove this unused import 'br.com.mmmsieto.infrastructure.category.persistence.CategoryJpaEntity'.(Šüô§øÿÿÿÿ8½‰ˆÚË1
 …
-java:S1128"cRemove this unused import 'br.com.mmmsieto.infrastructure.category.persistence.CategoryRepository'.(¡åêáûÿÿÿÿ8¤üñÊ1
-c
 java:S1128
-"GRemove this unused import 'org.springframework.boot.ApplicationRunner'.(ÃëòN8¤üñÊ1
+"cRemove this unused import 'br.com.mmmsieto.infrastructure.category.persistence.CategoryRepository'.(¡åêáûÿÿÿÿ8½‰ˆÚË1
+u
+java:S1128"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡¸Îùÿÿÿÿ8çÖÚË1
+c
+java:S1128"GRemove this unused import 'org.springframework.boot.ApplicationRunner'.(ÃëòN8çÖÚË1
+‹
+java:S1128"iRemove this unused import 'org.springframework.boot.sql.init.dependency.DependsOnDatabaseInitialization'.(’ûŒ›ùÿÿÿÿ8çÖÚË1
 e
-java:S1128"HRemove this unused import 'org.springframework.context.annotation.Bean'.(‚î‰Ş8¤üñÊ1
+java:S1128"HRemove this unused import 'org.springframework.context.annotation.Bean'.(‚î‰Ş8èÖÚË1
 M
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8¤üñÊ1
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8½‰ˆÚË1
