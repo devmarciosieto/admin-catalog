@@ -110,3 +110,9 @@ w
 Ginfrastructure/src/test/java/br/com/mmmsieto/MySQLCleanUpExtension.java,a\4\a48513bf38af388d8fe6eed6411dffe1062e4088
 r
 Binfrastructure/src/test/java/br/com/mmmsieto/MySQLGatewayTest.java,c\c\ccaf7473c57492cb8230316d8c63beedefc750f7
+q
+Ainfrastructure/src/test/java/br/com/mmmsieto/IntegrationTest.java,e\a\ead71c628c4b81d063451f0b6e6e1efa0c509501
+Ž
+^infrastructure/src/main/java/br/com/mmmsieto/infrastructure/configuration/WebServerConfig.java,3\a\3a9cdbaa53671112f6f642a8f645c80d3b905f50
+v
+Finfrastructure/src/test/java/br/com/mmmsieto/application/SampleIT.java,3\c\3c24ed39aa1461f9f36ce33bd33f3d2f26188854
