@@ -20,25 +20,22 @@ public class DefaultCreateCategoryUseCase extends CreateCategoryUseCase {
 
     @Override
     public Either<Notification, CreateCategoryOutput> execute(final CreateCategoryCommand aCommand) {
+        final var aName = aCommand.name();
+        final var aDescription = aCommand.description();
+        final var isActive = aCommand.isActive();
 
         final var notification = Notification.create();
 
-        final var aCategory = Category.newCategory(aCommand.name(), aCommand.description(), aCommand.isActive());
+        final var aCategory = Category.newCategory(aName, aDescription, isActive);
         aCategory.validate(notification);
-
-        if (notification.hasError()) {
-
-        }
 
         return notification.hasError() ? Left(notification) : create(aCategory);
     }
 
     private Either<Notification, CreateCategoryOutput> create(final Category aCategory) {
-
         return Try(() -> this.categoryGateway.create(aCategory))
                 .toEither()
                 .bimap(Notification::create, CreateCategoryOutput::from);
     }
-
-
 }
+

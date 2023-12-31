@@ -21,8 +21,6 @@ r
 Bapplication/src/main/java/br/com/mmmsieto/application/UseCase.java,a\4\a4777014216f43a23051e31aa7f131aacc2563cb
 v
 Fapplication/src/test/java/br/com/mmmsieto/application/UseCaseTest.java,5\9\59e35b349db9f02ac6dfaf55c0272641464692b8
-y
-Iinfrastructure/src/test/java/br/com/mmmsieto/infrastructure/MainTest.java,3\0\30bcfc199d88f07c05bbbc2750a0a4f04ccb583a
 r
 Bdomain/src/main/java/br/com/mmmsieto/domain/category/Category.java,1\a\1a98bdea9618dc99a099c42c52dd12f4027a0b1d
 v
@@ -92,18 +90,10 @@ hinfrastructure/src/main/java/br/com/mmmsieto/infrastructure/category/persistenc
 ^infrastructure/src/main/java/br/com/mmmsieto/infrastructure/category/CategoryMySQLGateway.java,3\9\395cd0963627704c72e691eb6e8b4fee11fcfde9
 í
 binfrastructure/src/test/java/br/com/mmmsieto/infrastructure/category/CategoryMySQLGatewayTest.java,5\4\54a25ea41c917cc6a3ab45bba82fefc9843cbe0f
-Å
-Qinfrastructure/src/test/java/br/com/mmmsieto/infrastructure/MySQLGatewayTest.java,9\3\93c238c2b2f98a14ee2a30648a9af3768b30e460
-Ü
-Vinfrastructure/src/test/java/br/com/mmmsieto/infrastructure/MySQLCleanUpExtension.java,4\3\43e04c1c0d595f1ec342566f6ef678a560e69fc8
 ì
 cinfrastructure/src/test/java/br/com/mmmsieto/infrastructure/persistence/CategoryRepositoryTest.java,5\c\5caa4f72d9168211d7c4b356b61665c2fe0ad1c3
 â
 Yinfrastructure/src/main/java/br/com/mmmsieto/infrastructure/utils/SpecificationUtils.java,a\2\a2b645e21b570d14a0c8d1509358dc6611a87747
-å
-\infrastructure/src/main/java/br/com/mmmsieto/infrastructure/configuration/UseCaseConfig.java,c\6\c6250a70ae4876421e4b61bd4b5f0c89f228c0f2
-ï
-einfrastructure/src/main/java/br/com/mmmsieto/infrastructure/configuration/usecases/UseCaseConfig.java,4\8\483d31eed76863b1874ed0b667af63615fd1fbf2
 ù
 minfrastructure/src/main/java/br/com/mmmsieto/infrastructure/configuration/usecases/CategoryUseCaseConfig.java,6\a\6a5187dc5dd356dfe7eca7431101cea3c4754f75
 w
@@ -114,5 +104,7 @@ q
 Ainfrastructure/src/test/java/br/com/mmmsieto/IntegrationTest.java,e\a\ead71c628c4b81d063451f0b6e6e1efa0c509501
 é
 ^infrastructure/src/main/java/br/com/mmmsieto/infrastructure/configuration/WebServerConfig.java,3\a\3a9cdbaa53671112f6f642a8f645c80d3b905f50
-v
-Finfrastructure/src/test/java/br/com/mmmsieto/application/SampleIT.java,3\c\3c24ed39aa1461f9f36ce33bd33f3d2f26188854
+à
+Xinfrastructure/src/test/java/br/com/mmmsieto/application/category/retrieve/SampleIT.java,e\5\e5a091301c6fca4141abed65ac841766d18b5a1a
+ï
+einfrastructure/src/test/java/br/com/mmmsieto/application/category/create/CreateCategoryUseCaseIT.java,1\f\1f50b9467539eb14530873b2332e18ad71c05c17
