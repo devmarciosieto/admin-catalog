@@ -116,3 +116,7 @@ einfrastructure/src/test/java/br/com/mmmsieto/application/category/delete/Delete
 linfrastructure/src/test/java/br/com/mmmsieto/application/category/retrieve/list/ListCategoriesUseCaseIT.java,6\e\6e009bbb0304e99750213a95a6893d23fcb989eb
 •
 einfrastructure/src/test/java/br/com/mmmsieto/application/category/update/UpdateCategoryUseCaseIT.java,2\7\2787608b5386c6a37af9be2b0e3e6da3fad155f3
+€
+Pinfrastructure/src/main/java/br/com/mmmsieto/infrastructure/api/CategoryAPI.java,9\4\948a43851e1e42d31529e3a4c8d5ed16972f019f
+’
+binfrastructure/src/main/java/br/com/mmmsieto/infrastructure/api/controller/CategoryController.java,4\8\480121f49597f82179ba3e40403dda4ac1e9a805
