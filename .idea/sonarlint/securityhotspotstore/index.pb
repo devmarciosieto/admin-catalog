@@ -108,3 +108,11 @@ Ainfrastructure/src/test/java/br/com/mmmsieto/IntegrationTest.java,e\a\ead71c62
 Xinfrastructure/src/test/java/br/com/mmmsieto/application/category/retrieve/SampleIT.java,e\5\e5a091301c6fca4141abed65ac841766d18b5a1a
 •
 einfrastructure/src/test/java/br/com/mmmsieto/application/category/create/CreateCategoryUseCaseIT.java,1\f\1f50b9467539eb14530873b2332e18ad71c05c17
+œ
+linfrastructure/src/test/java/br/com/mmmsieto/application/category/retrieve/get/GetCategoryByIdUseCaseIT.java,2\4\24ce90b915003706abf35f482cb8abba136a4e7f
+•
+einfrastructure/src/test/java/br/com/mmmsieto/application/category/delete/DeleteCategoryUseCaseIT.java,5\5\5520cb528d7991ea490df70aa0e20d91a68fe7cc
+œ
+linfrastructure/src/test/java/br/com/mmmsieto/application/category/retrieve/list/ListCategoriesUseCaseIT.java,6\e\6e009bbb0304e99750213a95a6893d23fcb989eb
+•
+einfrastructure/src/test/java/br/com/mmmsieto/application/category/update/UpdateCategoryUseCaseIT.java,2\7\2787608b5386c6a37af9be2b0e3e6da3fad155f3
