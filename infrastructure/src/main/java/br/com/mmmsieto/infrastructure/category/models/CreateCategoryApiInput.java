@@ -8,3 +8,4 @@ public record CreateCategoryApiInput(
         @JsonProperty("is_active") Boolean active
 ) {
 }
+

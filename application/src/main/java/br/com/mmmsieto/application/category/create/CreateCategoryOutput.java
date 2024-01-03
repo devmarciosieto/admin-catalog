@@ -1,7 +1,6 @@
 package br.com.mmmsieto.application.category.create;
 
 import br.com.mmmsieto.domain.category.Category;
-import br.com.mmmsieto.domain.category.CategoryID;
 
 public record CreateCategoryOutput(
         String id
