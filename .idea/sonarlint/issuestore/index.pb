@@ -120,3 +120,13 @@ einfrastructure/src/test/java/br/com/mmmsieto/application/category/update/Update
 Pinfrastructure/src/main/java/br/com/mmmsieto/infrastructure/api/CategoryAPI.java,9\4\948a43851e1e42d31529e3a4c8d5ed16972f019f
 ’
 binfrastructure/src/main/java/br/com/mmmsieto/infrastructure/api/controller/CategoryController.java,4\8\480121f49597f82179ba3e40403dda4ac1e9a805
+p
+@infrastructure/src/test/java/br/com/mmmsieto/ControllerTest.java,2\2\22e2c8fc851fc1d78464bdd07e3ba88126f70094
+‘
+ainfrastructure/src/main/java/br/com/mmmsieto/infrastructure/configuration/ObjectMapperConfig.java,0\c\0c3cb1d9070ac8f5950487cae2e3653859139ef1
+ˆ
+Xinfrastructure/src/main/java/br/com/mmmsieto/infrastructure/configuration/json/Json.java,7\1\71aaad65cf9297050a2525c160216141a3d7ddf1
+„
+Tinfrastructure/src/test/java/br/com/mmmsieto/infrastructure/api/CategoryAPITest.java,a\d\ad1497322c6903b9af03e034bc2462bc59197260
+—
+ginfrastructure/src/main/java/br/com/mmmsieto/infrastructure/category/models/CreateCategoryApiInput.java,4\1\410be915ebd8df6cc38be1758a7cadf60e3c8aff
